@@ -21,12 +21,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 label{
-	margin-right: 5px;
+	margin-right: 0.3125rem;
 	color: #2B4253;
 }
 
 label input{
-	margin-right: 5px;
+	margin-right: 0.3125rem;
 }
 
 .send-div{
