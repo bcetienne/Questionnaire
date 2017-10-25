@@ -1,23 +1,219 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <title>Questionnaire</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+	<title>Questionnaire</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!-- User CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- User CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<h1 class="display-1 text-center">Test de culture générale</h1>
+	</header>
+	<main class="container-fluid">
+		<p>Ce test comporte 10 questions, bonne chance.</p>
+		<form action="./script.php">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="question-div">
+						<div class="question">
+							<h4>Question 1</h4>
+							<!-- Fausses réponses : Hans Zimmer, James Horner, Danny Elfman -->
+							<!-- Réponse : Ennio Morricone -->
+							<p>A quelle compositeur doit-on les bandes-son des films comme "Il était une fois en Amérique", "Pour une poignée de dollars ?" ou le "Clan des siciliens" ?</p>
+						</div>    			
+						<div class="response">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
-</html>
+							<label for=""><input type="radio" name="responseRadio" value="" id="">Ennio Morricone</label>
+							<label for=""><input type="radio" name="responseRadio" value="" id="">Hans Zimmer</label>
+							<label for=""><input type="radio" name="responseRadio" value="" id="">James Horner</label>
+							<label for=""><input type="radio" name="responseRadio" value="" id="">Danny Elfman</label>	
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="question-div">
+						<div class="question">
+							<h4>Question 2</h4>
+							<!-- Fausses réponses : Je suis venu, j'ai vu j'ai vaincu, A l'impossible, nul n'est tenu, Le sort en est jeté, Que l'acheteur soit vigilant -->
+							<!-- Réponse : Cueille le jour ! -->
+							<p>Que signifie l'expression de Horace, "Carpe Diem" ?</p>
+						</div>    			
+						<div class="response">
+							<form action="./script.php">
+								<label for=""><input type="radio" name="responseRadio" value="" id="">Je suis venu, j'ai vu j'ai vaincu !</label>
+								<label for=""><input type="radio" name="responseRadio" value="" id="">Le sort en est jeté !</label>
+								<label for=""><input type="radio" name="responseRadio" value="" id="">Cueille le jour !</label>
+								<label for=""><input type="radio" name="responseRadio" value="" id="">Que l'acheteur soit vigilant !</label>	
+
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="question-div">
+							<div class="question">
+								<h4>Question 3</h4>
+								<!-- Fausses réponses : Blatère, abboie, rugit -->
+								<!-- Réponse : Hennit -->
+								<p>On dit qu'un cheval...</p>
+							</div>    			
+							<div class="response">
+								<form action="./script.php">
+									<label for=""><input type="radio" name="responseRadio" value="" id="">Blatère</label>
+									<label for=""><input type="radio" name="responseRadio" value="" id="">Abboie</label>
+									<label for=""><input type="radio" name="responseRadio" value="" id="">Hennit</label>
+									<label for=""><input type="radio" name="responseRadio" value="" id="">Rugit</label>	
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="question-div">
+								<div class="question">
+									<h4>Question 4</h4>
+									<!-- Fausses réponses : Les augustes, les shahs, les patrons -->
+									<!-- Réponse : Les pharaons -->
+									<p>Comment nomme-t-on les dirigeants de l’Égypte antique ?</p>
+								</div>    			
+								<div class="response">
+									<form action="./script.php">
+										<label for=""><input type="radio" name="responseRadio" value="" id="">Les augustes</label>
+										<label for=""><input type="radio" name="responseRadio" value="" id="">Les pharaons</label>
+										<label for=""><input type="radio" name="responseRadio" value="" id="">Les shahs</label>
+										<label for=""><input type="radio" name="responseRadio" value="" id="">Les patrons</label>	
+
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="question-div">
+									<div class="question">
+										<h4>Question 5</h4>
+										<!-- Fausses réponses : Molière, Victor Hugo, Virgile -->
+										<!-- Réponse : Homère -->
+										<p>A quel écrivain attribue-t-on l'oeuvre de "L'Iliade et l'Odyssée" ?</p>
+									</div>    			
+									<div class="response">
+										<form action="./script.php">
+											<label for=""><input type="radio" name="responseRadio" value="" id="">Molière</label>
+											<label for=""><input type="radio" name="responseRadio" value="" id="">Virgile</label>
+											<label for=""><input type="radio" name="responseRadio" value="" id="">Victor Hugo</label>
+											<label for=""><input type="radio" name="responseRadio" value="" id="">Homère</label>	
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="question-div">
+										<div class="question">
+											<h4>Question 6</h4>
+											<!-- Fausses réponses : Severus Rogue, Dumbledor, Draco Malfoy -->
+											<!-- Réponse : Tom Elvis Jedusor -->
+											<p>Quel est le véritable nom de Lord Voldemort dans Harry Potter ?</p>
+										</div>    			
+										<div class="response">
+											<form action="./script.php">
+												<label for=""><input type="radio" name="responseRadio" value="" id="">Dumbledor</label>
+												<label for=""><input type="radio" name="responseRadio" value="" id="">Draco Malfoy</label>
+												<label for=""><input type="radio" name="responseRadio" value="" id="">Tom Elvis Jedusor</label>
+												<label for=""><input type="radio" name="responseRadio" value="" id="">Severus Rogue</label>	
+
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="question-div">
+											<div class="question">
+												<h4>Question 7</h4>
+												<!-- Fausses réponses : Maitre Gims, Jul, Céline Dion -->
+												<!-- Réponse : Stéphanie de Monaco -->
+												<p>Qui a chanté le morceau "Comme un ouragan" en 1986 ?</p>
+											</div>    			
+											<div class="response">
+												<form action="./script.php">
+													<label for=""><input type="radio" name="responseRadio" value="" id="">Maitre Gims</label>
+													<label for=""><input type="radio" name="responseRadio" value="" id="">Céline Dion</label>
+													<label for=""><input type="radio" name="responseRadio" value="" id="">Jul</label>
+													<label for=""><input type="radio" name="responseRadio" value="" id="">Stéphanie de Monaco</label>	
+
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="question-div">
+												<div class="question">
+													<h4>Question 8</h4>
+													<!-- Fausses réponses : Le cheval, le héros, la personne qui a inventé le jeu -->
+													<!-- Réponse : La princesse -->
+													<p>Zelda est ...</p>
+												</div>    			
+												<div class="response">
+													<form action="./script.php">
+														<label for=""><input type="radio" name="responseRadio" value="" id="">La princesse</label>
+														<label for=""><input type="radio" name="responseRadio" value="" id="">Le cheval</label>
+														<label for=""><input type="radio" name="responseRadio" value="" id="">La personne qui a inventé le jeu</label>
+														<label for=""><input type="radio" name="responseRadio" value="" id="">Le héros</label>	
+
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="question-div">
+													<div class="question">
+														<h4>Question 9</h4>
+														<!-- Fausses réponses : Humain, Namek, Chien -->
+														<!-- Réponse : Saiyan -->
+														<p>San Goku est un...</p>
+													</div>    			
+													<div class="response">
+														<form action="./script.php">
+															<label for=""><input type="radio" name="responseRadio" value="" id="">Humain</label>
+															<label for=""><input type="radio" name="responseRadio" value="" id="">Namek</label>
+															<label for=""><input type="radio" name="responseRadio" value="" id="">Saiyan</label>
+															<label for=""><input type="radio" name="responseRadio" value="" id="">Chien</label>	
+
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="question-div">
+														<div class="question">
+															<h4>Question 10</h4>
+															<!-- Fausses réponses : Vert, Rose, Noir -->
+															<!-- Réponse : Bleu -->
+															<p>De quelle couleur est Sonic le hérisson ?</p>
+														</div>    			
+														<div class="response">
+															<form action="./script.php">
+																<label for=""><input type="radio" name="responseRadio" value="" id="">Rose</label>
+																<label for=""><input type="radio" name="responseRadio" value="" id="">Vert</label>
+																<label for=""><input type="radio" name="responseRadio" value="" id="">Bleu</label>
+																<label for=""><input type="radio" name="responseRadio" value="" id="">Noir</label>	
+
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="send-div text-center">
+															<input class="send-btn" type="submit" name="Voir les résultats">
+														</div>
+													</div>
+
+												</div>
+											</form>
+										</main>
+										<footer>
+											<p class="text-center"><small>Copyright© Etienne Blanc-Coquand - 2017</small></p>
+										</footer>
+										<!-- Optional JavaScript -->
+										<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+										<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+										<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+										<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+									</body>
+									</html>
