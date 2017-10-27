@@ -1,15 +1,42 @@
 <?php
 require_once("./createForm.php");
+require_once("./template/head.html");
+require_once("./template/foot.html");
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Questionnaire</title>
-  </head>
-  <body>
+  <header class="container-fluid">
+    <h1 class="display-1 text-center">Test de culture générale</h1>
+  </header>
+  <main class="container-fluid">
+    <p>Ce test comporte 10 questions, bonne chance.</p>
     <?php
-        echo openForm("./script.php");
+      echo openForm("./script.php");
+        echo createDivContainer();
+          echo createQuestions();
+        echo closeTag("div");
+      echo closeTag("form");
+    ?>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- echo openForm("./script.php");
         echo createSelect("country", "Choisissez un pays", [
           [
             "value" => "fr",
@@ -33,7 +60,4 @@ require_once("./createForm.php");
         echo createInput("radio", "myRadio", "Mon input radio");
         echo createInput("checkbox", "myCheck", "Mon input check");
         echo createSubmit("Envoyer");
-        echo closeTag("form");
-    ?>
-  </body>
-</html>
+        echo closeTag("form"); -->
